@@ -1,0 +1,153 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+body,p,div,span,input,img,li,ul{
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(200,200,200,0);
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /*Center slide text vertically*/
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+}
+.turn-page{
+    background-image: url('../img/ye.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.bg-img{
+    background-image: url('../img/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#page{
+    background-image: url('../img/book.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    width:94%;
+    height: 82%;
+    left: 5%;
+    top: 12%;
+}
+.page1{
+    background-image: url('../img/page1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    z-index: 100;
+}
+.page2{
+    background-image: url('../img/book2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+}
+.btn1{
+    background-image: url('../img/btn1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    width: 60%;
+    height: 12%;
+    top: 83%;
+    left: 18%;
+    z-index: 100;
+}
+.hand{
+    width: 9%;
+    height: 7%;
+    position: absolute;
+    background-image: url('../img/shou.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    top: 86%;
+    left: 64%;
+    z-index: 100;
+    animation: myfirst 1.5s infinite;
+    -moz-animation: myfirst 1.5s infinite;	/* Firefox */
+    -webkit-animation: myfirst 1.5s infinite;	/* Safari 和 Chrome */
+    -o-animation: myfirst 1.5s infinite;	/* Opera */
+}
+@keyframes myfirst
+{
+    50% {width: 11%;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    50% {width: 11%;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    50% {width: 11%;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    100% {width: 11%;}
+}
+.menu{
+    margin-left: 10%;
+    margin-top: 2.5%;
+    width: 72%;
+    height: 15%;
+}
+.menu1{
+    border-bottom: 1px solid black;
+    padding-top: 4%;
+}
+.menu2{
+    border-bottom: 1px solid black;
+}
+.menu3{
+    border-bottom: 1px solid black;
+}
+.menu4{
+    border-bottom: 1px solid black;
+}
+
+.roll{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/juanjiao.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    top: -8%;
+    left: -2px;
+}
+.menu-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 1%;
+}
